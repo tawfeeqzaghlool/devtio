@@ -2,7 +2,6 @@
   <section class="services">
     <h2 class="section-title">
       Our Services
-      <span class="details-link">Click for details</span>
     </h2>
     <div class="service-grid">
       <div
@@ -19,6 +18,7 @@
             </div>
             <div class="service-title">
               <h3>{{ service }}</h3>
+              <span class="details-link">Click for details</span>
             </div>
           </div>
           <!-- Back Card: Display Headline and Description -->
@@ -129,6 +129,9 @@ function toggleInfo(index: number) {
   perspective: 1000px;
   width: 100%;
   height: 300px;
+  border: 1px solid var(--color-border);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
   background-color: transparent;
 }
 

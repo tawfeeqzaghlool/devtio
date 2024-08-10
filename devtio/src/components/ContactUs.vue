@@ -363,43 +363,53 @@ input::placeholder, textarea::placeholder {
 }
 
 @media (max-width: 768px) {
-  .contact-wrapper {
-    flex-direction: column; /* Stack image and form */
-  }
+.contact-wrapper {
+  flex-direction: column; /* Stack image and form */
+}
 
-  .contact-image,
-  .call-to-action-content {
-    width: 100%;
-    padding: 20px;
-  }
+.contact-image {
+  order: 2; /* Move the image after the content */
+  width: 100%;
+  padding: 20px;
+}
 
-  .section-title {
-    font-size: 1.5rem; /* Adjust font size for smaller screens */
-  }
+.call-to-action-content {
+  order: 1; /* Ensure the content remains on top */
+  width: 100%;
+  padding: 20px;
+}
 
-  .section-description {
-    font-size: 0.875rem; /* Adjust font size for smaller screens */
-  }
+.section-title {
+  font-size: 1.5rem; /* Adjust font size for smaller screens */
+}
 
-  .form-group label {
-    font-size: 0.875rem; /* Adjust font size for smaller screens */
-  }
+.section-description {
+  font-size: 0.875rem; /* Adjust font size for smaller screens */
+}
 
-  .form-group input,
-  .form-group textarea {
-    font-size: 0.875rem; /* Adjust font size for smaller screens */
-  }
+.form-group label {
+  font-size: 0.875rem; /* Adjust font size for smaller screens */
+}
 
-  .char-count {
-    font-size: 0.75rem; /* Adjust font size for smaller screens */
-  }
+.form-group input,
+.form-group textarea {
+  font-size: 0.875rem; /* Adjust font size for smaller screens */
+}
 
-  .submit-button {
-    width: 100%;
-    font-size: 0.875rem; /* Adjust font size for smaller screens */
-  }
-  .toast {
-    font-size: 0.8rem; /* Smaller text size for mobile */
-  }
+.char-count {
+  font-size: 0.75rem; /* Adjust font size for smaller screens */
+}
+
+.submit-button {
+  width: 100%;
+  font-size: 0.875rem; /* Adjust font size for smaller screens */
+}
+.toast {
+  font-size: 0.8rem; /* Smaller text size for mobile */
+}
+
+.contact-form {
+  width: 100%; /* Ensure the form takes full width */
+}
 }
 </style>

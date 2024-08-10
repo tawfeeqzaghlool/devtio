@@ -5,22 +5,22 @@
       <div class="step-card">
         <div class="icon">🗣️</div>
         <h2>1. Discover</h2>
-        <p>We start with a conversation, understanding your ideas, challenges, and vision.</p>
+        <p>We kick things off with a deep dive into your ideas, challenges, and goals. It's all about getting to know you and your vision inside out!</p>
       </div>
       <div class="step-card">
         <div class="icon">🗺️</div>
         <h2>2. Plan</h2>
-        <p>We turn those ideas into a detailed roadmap, with clear steps and goals.</p>
+        <p>Next, we craft a detailed blueprint of your project. We map out every step and milestone, ensuring we're all set for a smooth journey ahead.</p>
       </div>
       <div class="step-card">
         <div class="icon">🔨</div>
         <h2>3. Develop</h2>
-        <p>Our team brings your project to life with transparency, updates, and a commitment to quality.</p>
+        <p>Our team swings into action, turning plans into reality. Expect regular updates, transparent communication, and a relentless pursuit of quality.</p>
       </div>
       <div class="step-card">
         <div class="icon">🚀</div>
         <h2>4. Deliver</h2>
-        <p>We deliver a solution that exceeds expectations and provide ongoing support.</p>
+        <p>Finally, we deliver a solution that not only meets but surpasses your expectations. Plus, we’re here for ongoing support to keep things running smoothly.</p>
       </div>
     </div>
   </section>

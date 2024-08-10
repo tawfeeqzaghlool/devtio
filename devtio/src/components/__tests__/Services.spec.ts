@@ -24,7 +24,7 @@ const mockImages = {
 describe('ServicesSection.vue', () => {
   it('renders correctly', () => {
     const wrapper = mount(ServicesSection);
-    expect(wrapper.find('.section-title').text()).toBe('Our Services Click for details');
+    expect(wrapper.find('.section-title').text()).toBe('Our Services');
     expect(wrapper.findAll('.service-card')).toHaveLength(mockServices.length);
   });
 

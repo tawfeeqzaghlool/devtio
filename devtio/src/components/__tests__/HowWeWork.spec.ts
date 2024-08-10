@@ -18,10 +18,10 @@ describe('HowWeWork.vue', () => {
     
     const stepCards = wrapper.findAll('.step-card')
     const expectedSteps = [
-      { icon: '🗣️', heading: '1. Discover', description: 'We start with a conversation, understanding your ideas, challenges, and vision.' },
-      { icon: '🗺️', heading: '2. Plan', description: 'We turn those ideas into a detailed roadmap, with clear steps and goals.' },
-      { icon: '🔨', heading: '3. Develop', description: 'Our team brings your project to life with transparency, updates, and a commitment to quality.' },
-      { icon: '🚀', heading: '4. Deliver', description: 'We deliver a solution that exceeds expectations and provide ongoing support.' }
+      { icon: '🗣️', heading: '1. Discover', description: 'We kick things off with a deep dive into your ideas, challenges, and goals. It\'s all about getting to know you and your vision inside out!' },
+      { icon: '🗺️', heading: '2. Plan', description: 'Next, we craft a detailed blueprint of your project. We map out every step and milestone, ensuring we\'re all set for a smooth journey ahead.' },
+      { icon: '🔨', heading: '3. Develop', description: 'Our team swings into action, turning plans into reality. Expect regular updates, transparent communication, and a relentless pursuit of quality.' },
+      { icon: '🚀', heading: '4. Deliver', description: 'Finally, we deliver a solution that not only meets but surpasses your expectations. Plus, we’re here for ongoing support to keep things running smoothly.' }
     ]
     
     stepCards.forEach((card, index) => {
